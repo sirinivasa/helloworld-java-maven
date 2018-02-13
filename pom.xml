@@ -35,15 +35,15 @@
   
  <distributionManagement>
 	<repository>
-		<id>tata</id>
+		<id>deployment</id>
 		<name>Internal Releases</name>
-		<url>http://10.5.0.6:8081/repository/maven-releases/</url>
+		<url>http://10.5.0.10:8082/repository/maven-snapshots/</url>
 	</repository>
  
 	<snapshotRepository>
 		<id>tata</id>
 		<name>Internal Releases</name>
-		<url>http://10.5.0.6:8081/repository/maven-snapshots/</url>
+		<url>ttp://10.5.0.10:8082/repository/maven-snapshots/</url>
 	</snapshotRepository>
 
 </distributionManagement>
